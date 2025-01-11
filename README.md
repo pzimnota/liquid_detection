@@ -85,8 +85,11 @@ git clone https://github.com/pzimnota/liquid_detection.git
    
    ### Example: 
    ![Solution](https://github.com/user-attachments/assets/d02610a5-a8f7-4203-b0fe-33e7d6df67a7)
+   ![Solution_with_cap](https://github.com/user-attachments/assets/2269debe-f1a6-45cb-b72d-f1c1679065e2)
 
    Console Output: \
    ![image](https://github.com/user-attachments/assets/9a872133-6cea-4ed8-88a5-2f9ffd2517ba)
+   ![image](https://github.com/user-attachments/assets/fe995949-4f6a-47de-833a-f26e0085dc39)
+
 
 ---
