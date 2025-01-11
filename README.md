@@ -71,25 +71,26 @@ git clone https://github.com/pzimnota/liquid_detection.git
 
 ## Example Results
    ### Input:
-   - Reference Image: A fully filled bottle.\
-   ![Full](https://github.com/user-attachments/assets/82c84b26-43e5-4fcc-8b1e-bbf1782c453f)
-
-   - Test Image: A bottle with varying liquid levels.\
-   ![Test](https://github.com/user-attachments/assets/20af7d9d-70aa-40c3-9959-b2e190deeb91)
+| Reference Image: A fully filled bottle | Test Image: A bottle with varying liquid levels |
+|---------|---------|
+| ![Full](https://github.com/user-attachments/assets/82c84b26-43e5-4fcc-8b1e-bbf1782c453f) | ![Test](https://github.com/user-attachments/assets/20af7d9d-70aa-40c3-9959-b2e190deeb91) |
    
+ 
    ### Output:
    - The program overlays bounding boxes:\
       Green: Liquid level.\
       Blue: Bottle boundaries.\
       Red: Cap (if present).
    
-   ### Example: 
-   ![Solution](https://github.com/user-attachments/assets/d02610a5-a8f7-4203-b0fe-33e7d6df67a7)
-   ![Solution_with_cap](https://github.com/user-attachments/assets/2269debe-f1a6-45cb-b72d-f1c1679065e2)
+   ### Example:
+   | Bottle without cap | Bottle with cap detected |
+   |---------|---------|
+   | ![Solution](https://github.com/user-attachments/assets/d02610a5-a8f7-4203-b0fe-33e7d6df67a7) | ![Solution_with_cap](https://github.com/user-attachments/assets/2269debe-f1a6-45cb-b72d-f1c1679065e2) |
 
-   Console Output: \
-   ![image](https://github.com/user-attachments/assets/9a872133-6cea-4ed8-88a5-2f9ffd2517ba)
-   ![image](https://github.com/user-attachments/assets/fe995949-4f6a-47de-833a-f26e0085dc39)
+   Console Output:
+   | Bottle without cap | Bottle with cap detected |
+   |---------|---------|
+   | ![image](https://github.com/user-attachments/assets/9a872133-6cea-4ed8-88a5-2f9ffd2517ba) | ![image](https://github.com/user-attachments/assets/fe995949-4f6a-47de-833a-f26e0085dc39) |
 
 
 ---
