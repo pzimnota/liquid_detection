@@ -15,8 +15,6 @@ This solution is particularly useful for quality control in production lines or 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example Results](#example-results)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ---
 
@@ -53,4 +51,42 @@ The project requires the following:
 ---
 
 ## Installation
+git clone https://github.com/zimnyy200/liquid_detection.git
 
+---
+
+## Usage
+1. Place the images in the Foto directory:
+   - Full.jpg: A reference image of a fully filled bottle.
+   - Test.jpg: An image of the bottle to be examined.
+     
+2. Run the script:
+   - python Detection.py 
+   
+4. Results:
+   - The processed image will be saved as Foto/Solution.jpg.
+   - The liquid level percentage and cap detection status will be displayed in the console.
+
+---
+
+## Example Results
+   ### Input:
+   - Reference Image: A fully filled bottle.\
+   ![Full](https://github.com/user-attachments/assets/82c84b26-43e5-4fcc-8b1e-bbf1782c453f)
+
+   - Test Image: A bottle with varying liquid levels.\
+   ![Test](https://github.com/user-attachments/assets/20af7d9d-70aa-40c3-9959-b2e190deeb91)
+   
+   ### Output:
+   - The program overlays bounding boxes:\
+      Green: Liquid level.\
+      Blue: Bottle boundaries.\
+      Red: Cap (if present).
+   
+   ### Example: 
+   ![Solution](https://github.com/user-attachments/assets/d02610a5-a8f7-4203-b0fe-33e7d6df67a7)
+
+   Console Output: \
+   ![image](https://github.com/user-attachments/assets/9a872133-6cea-4ed8-88a5-2f9ffd2517ba)
+
+---
