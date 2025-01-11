@@ -51,7 +51,7 @@ The project requires the following:
 ---
 
 ## Installation
-git clone https://github.com/zimnyy200/liquid_detection.git
+git clone https://github.com/pzimnota/liquid_detection.git
 
 ---
 
